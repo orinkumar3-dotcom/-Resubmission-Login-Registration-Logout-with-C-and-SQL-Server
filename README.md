@@ -1,0 +1,1 @@
+Login,Logout,Registration(Resubmission). 1st we need to convert the connection from Oledb to Sql. We need to go App.Config file then change the connection string to our database server name, then in main code we need to establish connection between our database and given project. Do some necessary changes for establish connection. That's it
