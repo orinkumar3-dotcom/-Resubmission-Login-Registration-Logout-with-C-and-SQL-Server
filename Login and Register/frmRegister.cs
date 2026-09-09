@@ -63,7 +63,7 @@ namespace Login_and_Register
 
                 MessageBox.Show(
                     "Your Account has been Successfully Created",
-                    "Registration Success",
+                    "Registration Done",
                     MessageBoxButtons.OK,
                     MessageBoxIcon.Information);
             }
