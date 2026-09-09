@@ -19,7 +19,6 @@ namespace Login_and_Register
             InitializeComponent();
         }
 
-        // Get connection string from App.config
         string connectionString = ConfigurationManager.ConnectionStrings["dbConnection"].ConnectionString;
         private void btnLogin_Click(object sender, EventArgs e)
         {
@@ -70,14 +69,12 @@ namespace Login_and_Register
                 txtPassword.PasswordChar = '•';
             }
         }
-
         private void btnClear_Click(object sender, EventArgs e)
         {
             txtUsername.Text = "";
             txtPassword.Text = "";
             txtUsername.Focus();
         }
-
         private void clickRegister_Click(object sender, EventArgs e)
         {
             new frmRegister().Show();
@@ -89,7 +86,6 @@ namespace Login_and_Register
             MessageBox.Show("Goodbye");
             Application.Exit();
         }
-
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
